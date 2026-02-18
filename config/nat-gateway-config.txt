@@ -1,0 +1,25 @@
+NAT Gateway Configuration – CE Lab M3.02
+
+Name: bootcamp-nat-gw
+NAT Gateway ID: nat-097cfa42a702da181
+State: Available
+
+VPC:
+- VPC ID: vpc-000824cba1612c960
+
+Subnet:
+- Subnet ID: subnet-0632710934e5bd830
+- CIDR: 10.0.1.0/24
+- Type: Public Subnet
+
+Elastic IP:
+- Allocation ID: eipalloc-06f0afacad59076c4
+- Public IP: 63.182.23.234
+
+Network Interface:
+- ENI: eni-071a08c9de79d4b4c
+- Private IP: 10.0.1.111
+
+Purpose:
+Provide outbound internet access to private subnet instances
+while preventing inbound connections from the internet.
