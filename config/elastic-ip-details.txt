@@ -1,0 +1,7 @@
+Elastic IP – NAT Gateway
+
+Name: nat-gateway-eip
+Allocation ID: eipalloc-XXXXXXXX
+Public IP: X.X.X.X
+Region: eu-central-1
+Purpose: Static public IP for NAT Gateway
