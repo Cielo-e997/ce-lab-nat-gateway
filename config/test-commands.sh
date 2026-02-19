@@ -1,6 +1,6 @@
 #!/bin/bash
-# Commands executed INSIDE the private EC2 instance (nat-test-instance)
-# to validate outbound access through the NAT Gateway.
+# Commands executed inside the PRIVATE instance (nat-test-instance) via bastion
+# Expected checkip output: 63.182.23.234 (NAT Gateway Elastic IP)
 
 curl http://checkip.amazonaws.com
 curl -I https://www.google.com
