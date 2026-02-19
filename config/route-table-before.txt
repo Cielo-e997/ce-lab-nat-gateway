@@ -4,18 +4,18 @@
             "Associations": [
                 {
                     "Main": false,
-                    "RouteTableAssociationId": "rtbassoc-0a24397cb5ea676cf",
+                    "RouteTableAssociationId": "rtbassoc-07cdee4db1bcd8bef",
                     "RouteTableId": "rtb-0b5ab819f7624658f",
-                    "SubnetId": "subnet-0cf02428d5f360f7f",
+                    "SubnetId": "subnet-08ed990ae03b08cca",
                     "AssociationState": {
                         "State": "associated"
                     }
                 },
                 {
                     "Main": false,
-                    "RouteTableAssociationId": "rtbassoc-07cdee4db1bcd8bef",
+                    "RouteTableAssociationId": "rtbassoc-0a24397cb5ea676cf",
                     "RouteTableId": "rtb-0b5ab819f7624658f",
-                    "SubnetId": "subnet-08ed990ae03b08cca",
+                    "SubnetId": "subnet-0cf02428d5f360f7f",
                     "AssociationState": {
                         "State": "associated"
                     }
@@ -28,12 +28,6 @@
                     "DestinationCidrBlock": "10.0.0.0/16",
                     "GatewayId": "local",
                     "Origin": "CreateRouteTable",
-                    "State": "active"
-                },
-                {
-                    "DestinationCidrBlock": "0.0.0.0/0",
-                    "NatGatewayId": "nat-097cfa42a702da181",
-                    "Origin": "CreateRoute",
                     "State": "active"
                 }
             ],
